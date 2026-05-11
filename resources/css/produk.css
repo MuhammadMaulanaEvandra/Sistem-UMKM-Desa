@@ -1,0 +1,135 @@
+/* CONTAINER */
+.table-container {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* HEADER */
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.table-header h2 {
+    margin: 0;
+}
+
+.table-header p {
+    margin: 5px 0 0;
+    color: #777;
+    font-size: 14px;
+}
+
+/* BUTTON TAMBAH */
+.btn {
+    background: #111;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 16px;
+    border: none;
+    font-weight: 500;
+}
+
+/* TABLE WRAPPER */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px; /* bikin efek card */
+}
+
+/* HEADER TABLE */
+th {
+    text-align: left;
+    font-weight: 600;
+    color: #555;
+    padding: 10px;
+}
+
+/* ROW JADI CARD */
+tbody tr {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+tbody tr:hover {
+    transform: translateY(-3px);
+}
+
+/* CELL */
+td {
+    padding: 15px;
+    vertical-align: middle;
+}
+
+/* PRODUK FLEX */
+.produk-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* GAMBAR */
+.produk-info img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* NAMA */
+.produk-text h4 {
+    margin: 0;
+}
+
+.produk-text p {
+    margin: 5px 0 0;
+    font-size: 13px;
+    color: #777;
+}
+
+/* HARGA */
+.harga {
+    font-weight: 500;
+}
+
+/* AKSI */
+.action {
+    display: flex;
+    gap: 10px;
+}
+
+/* BUTTON AKSI */
+.btn-edit {
+    border: 1px solid #6c63ff;
+    color: #6c63ff;
+    padding: 6px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.btn-hapus {
+    border: 1px solid #ff4d4f;
+    color: #ff4d4f;
+    padding: 6px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* HOVER */
+.btn-edit:hover {
+    background: #6c63ff;
+    color: #fff;
+}
+
+.btn-hapus:hover {
+    background: #ff4d4f;
+    color: #fff;
+}
